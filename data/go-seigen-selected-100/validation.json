@@ -1,0 +1,199 @@
+{
+  "checked": 32,
+  "passed": 32,
+  "scope": "Coordinates, alternating colors, occupancy, captures, suicide and simple ko. Not book membership, scoring or historical accuracy.",
+  "games": [
+    {
+      "id": "book-001",
+      "moves": 121,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-002",
+      "moves": 181,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-005",
+      "moves": 223,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-030",
+      "moves": 175,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-031",
+      "moves": 298,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-032",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-033",
+      "moves": 144,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-034",
+      "moves": 165,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-035",
+      "moves": 186,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-036",
+      "moves": 275,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-037",
+      "moves": 235,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-038",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-039",
+      "moves": 190,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-041",
+      "moves": 247,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-042",
+      "moves": 246,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-043",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-044",
+      "moves": 206,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-045",
+      "moves": 216,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-047",
+      "moves": 155,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-048",
+      "moves": 269,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-049",
+      "moves": 194,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-052",
+      "moves": 189,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-053",
+      "moves": 290,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-064",
+      "moves": 283,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-065",
+      "moves": 228,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-066",
+      "moves": 131,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-067",
+      "moves": 260,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-070",
+      "moves": 203,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-071",
+      "moves": 247,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-072",
+      "moves": 263,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-073",
+      "moves": 164,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "book-077",
+      "moves": 267,
+      "valid": true,
+      "failures": []
+    }
+  ]
+}

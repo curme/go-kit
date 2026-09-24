@@ -1,0 +1,17 @@
+*** Begin Patch
+*** Update File: /Users/percival/Projects/renovate-kit/next.config.ts
+@@
+   allowedDevOrigins: ["renovate-kit.local"],
++  // Share the existing LAN port 80 with the Go learning app.
++  async rewrites() {
++    return {
++      beforeFiles: [
++        {
++          source: "/:path*",
++          has: [{ type: "host", value: "go-kit\\.local" }],
++          destination: "http://127.0.0.1:5184/:path*",
++        },
++      ],
++    };
++  },
+*** End Patch

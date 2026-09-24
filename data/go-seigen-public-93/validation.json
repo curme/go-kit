@@ -1,0 +1,565 @@
+{
+  "checked": 93,
+  "passed": 93,
+  "scope": "Coordinates, alternating colors, occupancy, captures, suicide and simple ko. Not book membership, scoring or historical accuracy.",
+  "games": [
+    {
+      "id": "qjql-001",
+      "moves": 276,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-002",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-003",
+      "moves": 194,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-004",
+      "moves": 186,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-005",
+      "moves": 275,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-006",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-007",
+      "moves": 190,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-008",
+      "moves": 185,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-009",
+      "moves": 271,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-010",
+      "moves": 246,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-011",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-012",
+      "moves": 206,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-013",
+      "moves": 216,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-014",
+      "moves": 274,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-015",
+      "moves": 269,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-016",
+      "moves": 177,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-017",
+      "moves": 194,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-018",
+      "moves": 230,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-019",
+      "moves": 328,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-020",
+      "moves": 189,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-021",
+      "moves": 251,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-022",
+      "moves": 265,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-023",
+      "moves": 290,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-024",
+      "moves": 258,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-025",
+      "moves": 291,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-026",
+      "moves": 227,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-027",
+      "moves": 234,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-028",
+      "moves": 228,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-029",
+      "moves": 233,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-030",
+      "moves": 243,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-031",
+      "moves": 263,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-032",
+      "moves": 259,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-033",
+      "moves": 183,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-034",
+      "moves": 233,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-035",
+      "moves": 224,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-036",
+      "moves": 227,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-037",
+      "moves": 176,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-038",
+      "moves": 268,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-039",
+      "moves": 234,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-040",
+      "moves": 182,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-041",
+      "moves": 256,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-042",
+      "moves": 208,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-043",
+      "moves": 273,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-044",
+      "moves": 245,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-045",
+      "moves": 242,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-050",
+      "moves": 252,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-051",
+      "moves": 183,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-052",
+      "moves": 241,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-053",
+      "moves": 256,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-054",
+      "moves": 265,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-055",
+      "moves": 269,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-056",
+      "moves": 237,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-057",
+      "moves": 249,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-058",
+      "moves": 283,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-059",
+      "moves": 232,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-063",
+      "moves": 180,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-064",
+      "moves": 211,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-065",
+      "moves": 226,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-066",
+      "moves": 221,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-067",
+      "moves": 289,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-068",
+      "moves": 204,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-069",
+      "moves": 233,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-070",
+      "moves": 322,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-071",
+      "moves": 237,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-072",
+      "moves": 256,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-073",
+      "moves": 203,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-074",
+      "moves": 245,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-075",
+      "moves": 272,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-076",
+      "moves": 247,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-077",
+      "moves": 181,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-078",
+      "moves": 179,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-079",
+      "moves": 215,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-080",
+      "moves": 251,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-081",
+      "moves": 275,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-082",
+      "moves": 274,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-083",
+      "moves": 263,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-084",
+      "moves": 187,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-085",
+      "moves": 181,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-086",
+      "moves": 267,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-087",
+      "moves": 257,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-088",
+      "moves": 181,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-089",
+      "moves": 255,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-090",
+      "moves": 326,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-091",
+      "moves": 254,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-092",
+      "moves": 305,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-093",
+      "moves": 267,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-094",
+      "moves": 319,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-095",
+      "moves": 187,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-096",
+      "moves": 299,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-097",
+      "moves": 191,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-098",
+      "moves": 258,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-099",
+      "moves": 220,
+      "valid": true,
+      "failures": []
+    },
+    {
+      "id": "qjql-100",
+      "moves": 246,
+      "valid": true,
+      "failures": []
+    }
+  ]
+}

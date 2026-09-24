@@ -1,0 +1,101 @@
+﻿book_number,volume,volume_number,title,status,date,black,white,result,move_count,sgf_file,archive_url
+1,上卷,1,座子棋,identified_from_publisher_preview,1926,Go Seigen,Wang Yunfeng,B+R,121,sgf/001-1926-00-00.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1926-00-00.sgf
+2,上卷,2,井上孝平五段,identified_from_publisher_preview,1927-11-25,Go Seigen,Inoue Kohei,B+R,181,sgf/002-1927-11-25.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1927-11-25.sgf
+3,上卷,3,北京的测验棋,needs_game_identification,,,,,,,
+4,上卷,4,在日第一战,needs_game_identification,,,,,,,
+5,上卷,5,秀哉授二子局,matched_by_catalog_title_and_archive_event,1928-12-26,Go Seigen,Honinbo Shusai,B+4,223,sgf/005-1928-12-26.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1928-12-26.sgf
+6,上卷,6,模仿棋,needs_game_identification,,,,,,,
+7,上卷,7,艺兄木谷实,needs_game_identification,,,,,,,
+8,上卷,8,大手合全胜,needs_game_identification,,,,,,,
+9,上卷,9,连过十人,needs_game_identification,,,,,,,
+10,上卷,10,朝日决胜局,needs_game_identification,,,,,,,
+11,上卷,11,读卖闯关局,needs_game_identification,,,,,,,
+12,上卷,12,时事报连胜,needs_game_identification,,,,,,,
+13,上卷,13,新布局的萌芽,needs_game_identification,,,,,,,
+14,上卷,14,十六六指,needs_game_identification,,,,,,,
+15,上卷,15,三三·天元局,needs_game_identification,,,,,,,
+16,上卷,16,对艺兄执白和棋,needs_game_identification,,,,,,,
+17,上卷,17,新布局诞生局,needs_game_identification,,,,,,,
+18,上卷,18,新旧对立,needs_game_identification,,,,,,,
+19,上卷,19,悬赏三番棋,needs_game_identification,,,,,,,
+20,上卷,20,二十岁六段,needs_game_identification,,,,,,,
+21,上卷,21,坂田少年局,needs_game_identification,,,,,,,
+22,上卷,22,久保松天元局,needs_game_identification,,,,,,,
+23,上卷,23,对局过多的年份,needs_game_identification,,,,,,,
+24,上卷,24,贴目的先驱,needs_game_identification,,,,,,,
+25,上卷,25,复活之秋,needs_game_identification,,,,,,,
+26,上卷,26,时隔三年,needs_game_identification,,,,,,,
+27,上卷,27,坂田四段,needs_game_identification,,,,,,,
+28,上卷,28,七段升段,needs_game_identification,,,,,,,
+29,上卷,29,镰仓十番棋,needs_game_identification,,,,,,,
+30,上卷,30,木谷第二局,matched_by_catalog_title_and_archive_event,1939-12-26..28,Go Seigen,Kitani Minoru,B+R,175,sgf/030-1939-12-26.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1939-12-26.sgf
+31,上卷,31,木谷第三局,matched_by_catalog_title_and_archive_event,"1940-03-15,04-08,09",Kitani Minoru,Go Seigen,B+5,298,sgf/031-1940-03-15.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1940-03-15.sgf
+32,上卷,32,木谷第四局,matched_by_catalog_title_and_archive_event,"1940-06-12,13,14",Go Seigen,Kitani Minoru,B+1,254,sgf/032-1940-06-12.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1940-06-12.sgf
+33,上卷,33,木谷第五局,matched_by_catalog_title_and_archive_event,"1940-08-04,05,06",Kitani Minoru,Go Seigen,W+R,144,sgf/033-1940-08-04.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1940-08-04.sgf
+34,上卷,34,木谷第六局,matched_by_catalog_title_and_archive_event,"1940-10-16,17,18",Go Seigen,Kitani Minoru,B+R,165,sgf/034-1940-10-16.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1940-10-16.sgf
+35,上卷,35,雁金第一局,matched_by_catalog_title_and_archive_event,1941-08-07..09,Karigane Junichi,Go Seigen,W+R,186,sgf/035-1941-08-07.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1941-08-07.sgf
+36,上卷,36,雁金第二局,matched_by_catalog_title_and_archive_event,1941-10-03..05,Go Seigen,Karigane Junichi,B+6,275,sgf/036-1941-10-03.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1941-10-03.sgf
+37,上卷,37,雁金第三局,matched_by_catalog_title_and_archive_event,1941-12-27..29,Karigane Junichi,Go Seigen,B+4,235,sgf/037-1941-12-27.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1941-12-27.sgf
+38,上卷,38,雁金第四局,matched_by_catalog_title_and_archive_event,1942-02-25..27,Go Seigen,Karigane Junichi,B+3,254,sgf/038-1942-02-25.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1942-02-25.sgf
+39,上卷,39,雁金第五局,matched_by_catalog_title_and_archive_event,1942-05-02..04,Karigane Junichi,Go Seigen,W+R,190,sgf/039-1942-05-02.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1942-05-02.sgf
+40,上卷,40,八段晋级谱,needs_game_identification,,,,,,,
+41,上卷,41,藤泽定先第一局,matched_by_catalog_title_and_archive_event,"1942-12-27,1943-01-05,06",Fujisawa Kuranosuke,Go Seigen,B+3,247,sgf/041-1942-12-27.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1942-12-27.sgf
+42,上卷,42,藤泽第二局,matched_by_catalog_title_and_archive_event,"1943-02-25,26",Fujisawa Kuranosuke,Go Seigen,W+R,246,sgf/042-1943-02-25.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1943-02-25.sgf
+43,上卷,43,藤泽第四局,matched_by_catalog_title_and_archive_event,"1943-06-02,03",Fujisawa Kuranosuke,Go Seigen,W+4,254,sgf/043-1943-06-02.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1943-06-02.sgf
+44,上卷,44,藤泽第五局,matched_by_catalog_title_and_archive_event,"1943-09-07,08",Fujisawa Kuranosuke,Go Seigen,W+R,206,sgf/044-1943-09-07.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1943-09-07.sgf
+45,上卷,45,藤泽第七局,matched_by_catalog_title_and_archive_event,,Fujisawa Kuranosuke,Go Seigen,W+R,216,sgf/045-1944-02-19.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1944-02-19.sgf
+46,上卷,46,战后的第二局,needs_game_identification,,,,,,,
+47,上卷,47,桥本第三局,matched_by_catalog_title_and_archive_event,1946-09,Go Seigen,Hashimoto Utaro,B+R,155,sgf/047-1946-09-00b.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1946-09-00b.sgf
+48,上卷,48,桥本第四局,matched_by_catalog_title_and_archive_event,1946-09,Hashimoto Utaro,Go Seigen,W+8,269,sgf/048-1946-09-00.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1946-09-00.sgf
+49,上卷,49,桥本第八局,matched_by_catalog_title_and_archive_event,1947-10-03,Hashimoto Utaro,Go Seigen,W+R,194,sgf/049-1947-10-03.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1947-10-03.sgf
+50,上卷,50,坂田三番棋,needs_game_identification,,,,,,,
+51,下卷,1,岩本薰和十番棋,needs_game_identification,,,,,,,
+52,下卷,2,岩本十番棋第二局,matched_by_catalog_title_and_archive_event,1948-07-20..22,Go Seigen,Iwamoto Kaoru,B+R,189,sgf/052-1948-07-20.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1948-07-20.sgf
+53,下卷,3,岩本十番棋第六局,matched_by_catalog_title_and_archive_event,1948-11-16..18,Go Seigen,Iwamoto Kaoru,B+12,290,sgf/053-1948-11-16.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1948-11-16.sgf
+54,下卷,4,藤泽秀行五段,needs_game_identification,,,,,,,
+55,下卷,5,长谷川章七段,needs_game_identification,,,,,,,
+56,下卷,6,洼内秀知六段,needs_game_identification,,,,,,,
+57,下卷,7,细川千仭七段,needs_game_identification,,,,,,,
+58,下卷,8,宫下秀洋六段,needs_game_identification,,,,,,,
+59,下卷,9,前田陈尔七段,needs_game_identification,,,,,,,
+60,下卷,10,炭野武司六段,needs_game_identification,,,,,,,
+61,下卷,11,坂田荣男七段,needs_game_identification,,,,,,,
+62,下卷,12,第二次桥本十番棋,needs_game_identification,,,,,,,
+63,下卷,13,藤泽库之助十番棋,needs_game_identification,,,,,,,
+64,下卷,14,藤泽十番棋第三局,matched_by_catalog_title_and_archive_event,1951-12-22..24,Fujisawa Kuranosuke,Go Seigen,Jigo,283,sgf/064-1951-12-22.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1951-12-22.sgf
+65,下卷,15,藤泽十番棋第七局,matched_by_catalog_title_and_archive_event,1952-04-24..26,Fujisawa Kuranosuke,Go Seigen,W+R,228,sgf/065-1952-04-24.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1952-04-24.sgf
+66,下卷,16,藤泽十番棋第八局,matched_by_catalog_title_and_archive_event,1952-05-14..16,Go Seigen,Fujisawa Kuranosuke,B+R,131,sgf/066-1952-05-14.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1952-05-14.sgf
+67,下卷,17,藤泽十番棋第九局,matched_by_catalog_title_and_archive_event,1952-06-11..13,Fujisawa Kuranosuke,Go Seigen,W+3,260,sgf/067-1952-06-11.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1952-06-11.sgf
+68,下卷,18,第二次藤泽十番棋,needs_game_identification,,,,,,,
+69,下卷,19,中村勇太郎六段,needs_game_identification,,,,,,,
+70,下卷,20,坂田十番棋第二局,matched_by_catalog_title_and_archive_event,"1953-11-19,20",Go Seigen,Sakata Eio,B+R,203,sgf/070-1953-11-19.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1953-11-19.sgf
+71,下卷,21,坂田十番棋第八局,matched_by_catalog_title_and_archive_event,"1954-07-24,25",Go Seigen,Sakata Eio,B+7,247,sgf/071-1954-07-24.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1954-07-24.sgf
+72,下卷,22,高川十番棋第一局,matched_by_catalog_title_and_archive_event,"1955-07-19,20",Go Seigen,Takagawa Shukaku,B+3,263,sgf/072-1955-07-19.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1955-07-19.sgf
+73,下卷,23,高川十番棋第二局,matched_by_catalog_title_and_archive_event,"1955-08-16,17",Takagawa Shukaku,Go Seigen,W+R,164,sgf/073-1955-08-16.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1955-08-16.sgf
+74,下卷,24,岛村利博八段,needs_game_identification,,,,,,,
+75,下卷,25,村岛谊纪七段,needs_game_identification,,,,,,,
+76,下卷,26,洼内秀知八段,needs_game_identification,,,,,,,
+77,下卷,27,高川十番棋第八局,matched_by_catalog_title_and_archive_event,"1956-09-28,29",Takagawa Shukaku,Go Seigen,W+1,267,sgf/077-1956-09-28.sgf,https://homepages.cwi.nl/~aeb/go/games/games/Go_Seigen/1956-09-28.sgf
+78,下卷,28,大雪崩内拐,needs_game_identification,,,,,,,
+79,下卷,29,暌违十三年,needs_game_identification,,,,,,,
+80,下卷,30,难解的一局,needs_game_identification,,,,,,,
+81,下卷,31,最强战优胜战,needs_game_identification,,,,,,,
+82,下卷,32,规则问题局,needs_game_identification,,,,,,,
+83,下卷,33,名人战前夜,needs_game_identification,,,,,,,
+84,下卷,34,名人战开始,needs_game_identification,,,,,,,
+85,下卷,35,交通事故之后,needs_game_identification,,,,,,,
+86,下卷,36,过关斩将,needs_game_identification,,,,,,,
+87,下卷,37,一举得胜,needs_game_identification,,,,,,,
+88,下卷,38,守住第二位,needs_game_identification,,,,,,,
+89,下卷,39,痛悔的和棋,needs_game_identification,,,,,,,
+90,下卷,40,名人挑战者决定战,needs_game_identification,,,,,,,
+91,下卷,41,与爱徒的对局,needs_game_identification,,,,,,,
+92,下卷,42,关西的新秀,needs_game_identification,,,,,,,
+93,下卷,43,关西的中坚,needs_game_identification,,,,,,,
+94,下卷,44,再一次的挑战者决定战,needs_game_identification,,,,,,,
+95,下卷,45,木谷门下俊英,needs_game_identification,,,,,,,
+96,下卷,46,对一击专业户的反攻,needs_game_identification,,,,,,,
+97,下卷,47,顽强的桥本昌二,needs_game_identification,,,,,,,
+98,下卷,48,山部变幻流,needs_game_identification,,,,,,,
+99,下卷,49,石之心梶原武雄,needs_game_identification,,,,,,,
+100,下卷,50,好对手,needs_game_identification,,,,,,,

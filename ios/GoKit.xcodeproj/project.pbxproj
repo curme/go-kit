@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000C8 /* GoKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* GoKitApp.swift */; };
+		0000000000000000000000C9 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000065 /* AppStore.swift */; };
+		0000000000000000000000CA /* Core/GoEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* Core/GoEngine.swift */; };
+		0000000000000000000000CB /* Core/Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000067 /* Core/Lesson.swift */; };
+		0000000000000000000000CC /* Core/Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000068 /* Core/Curriculum.swift */; };
+		0000000000000000000000CD /* Core/PracticeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000069 /* Core/PracticeGame.swift */; };
+		0000000000000000000000CE /* Views/Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006A /* Views/Components.swift */; };
+		0000000000000000000000CF /* Views/BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006B /* Views/BoardView.swift */; };
+		0000000000000000000000D0 /* Views/LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006C /* Views/LearnView.swift */; };
+		0000000000000000000000D1 /* Views/PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006D /* Views/PracticeView.swift */; };
+		0000000000000000000000D2 /* Views/ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006E /* Views/ReviewView.swift */; };
+		0000000000000000000000E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000082 /* Assets.xcassets */; };
+		0000000000000000000000E7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000083 /* PrivacyInfo.xcprivacy */; };
+		0000000000000000000000F0 /* Core/CoachTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000090 /* Core/CoachTraining.swift */; };
+		0000000000000000000000F1 /* Views/CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000091 /* Views/CoachView.swift */; };
+		0000000000000000000000F2 /* Core/AdvancedCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000092 /* Core/AdvancedCurriculum.swift */; };
+		0000000000000000000000F3 /* Core/WuCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000093 /* Core/WuCurriculum.swift */; };
+		0000000000000000000000F4 /* Views/WuCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000094 /* Views/WuCourseView.swift */; };
+		0000000000000000000000F5 /* Core/HundredDayPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000095 /* Core/HundredDayPlan.swift */; };
+		0000000000000000000000F6 /* Views/HundredDayPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000096 /* Views/HundredDayPlanView.swift */; };
+		0000000000000000000000F7 /* Core/StudyCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000097 /* Core/StudyCourse.swift */; };
+		0000000000000000000000F8 /* Core/StudyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000098 /* Core/StudyContent.swift */; };
+		0000000000000000000000F9 /* Core/StudyDiagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000099 /* Core/StudyDiagrams.swift */; };
+		0000000000000000000000FA /* Core/StudyPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009A /* Core/StudyPractice.swift */; };
+		0000000000000000000000FB /* Views/StudyCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009B /* Views/StudyCourseView.swift */; };
+		0000000000000000000000FC /* Views/StudyPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009C /* Views/StudyPracticeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000008 /* GoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* GoKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoKitApp.swift; sourceTree = "<group>"; };
+		000000000000000000000065 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		000000000000000000000066 /* Core/GoEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/GoEngine.swift; sourceTree = "<group>"; };
+		000000000000000000000067 /* Core/Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Lesson.swift; sourceTree = "<group>"; };
+		000000000000000000000068 /* Core/Curriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Curriculum.swift; sourceTree = "<group>"; };
+		000000000000000000000069 /* Core/PracticeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/PracticeGame.swift; sourceTree = "<group>"; };
+		00000000000000000000006A /* Views/Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components.swift; sourceTree = "<group>"; };
+		00000000000000000000006B /* Views/BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/BoardView.swift; sourceTree = "<group>"; };
+		00000000000000000000006C /* Views/LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LearnView.swift; sourceTree = "<group>"; };
+		00000000000000000000006D /* Views/PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PracticeView.swift; sourceTree = "<group>"; };
+		00000000000000000000006E /* Views/ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReviewView.swift; sourceTree = "<group>"; };
+		000000000000000000000082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000083 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		000000000000000000000090 /* Core/CoachTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/CoachTraining.swift; sourceTree = "<group>"; };
+		000000000000000000000091 /* Views/CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CoachView.swift; sourceTree = "<group>"; };
+		000000000000000000000092 /* Core/AdvancedCurriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/AdvancedCurriculum.swift; sourceTree = "<group>"; };
+		000000000000000000000093 /* Core/WuCurriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/WuCurriculum.swift; sourceTree = "<group>"; };
+		000000000000000000000094 /* Views/WuCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WuCourseView.swift; sourceTree = "<group>"; };
+		000000000000000000000095 /* Core/HundredDayPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/HundredDayPlan.swift; sourceTree = "<group>"; };
+		000000000000000000000096 /* Views/HundredDayPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HundredDayPlanView.swift; sourceTree = "<group>"; };
+		000000000000000000000097 /* Core/StudyCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/StudyCourse.swift; sourceTree = "<group>"; };
+		000000000000000000000098 /* Core/StudyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/StudyContent.swift; sourceTree = "<group>"; };
+		000000000000000000000099 /* Core/StudyDiagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/StudyDiagrams.swift; sourceTree = "<group>"; };
+		00000000000000000000009A /* Core/StudyPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/StudyPractice.swift; sourceTree = "<group>"; };
+		00000000000000000000009B /* Views/StudyCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StudyCourseView.swift; sourceTree = "<group>"; };
+		00000000000000000000009C /* Views/StudyPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StudyPracticeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000F /* GoKit */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000008 /* GoKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000F /* GoKit */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000090 /* Core/CoachTraining.swift */,
+				000000000000000000000091 /* Views/CoachView.swift */,
+				000000000000000000000092 /* Core/AdvancedCurriculum.swift */,
+				000000000000000000000093 /* Core/WuCurriculum.swift */,
+				000000000000000000000094 /* Views/WuCourseView.swift */,
+				000000000000000000000095 /* Core/HundredDayPlan.swift */,
+				000000000000000000000096 /* Views/HundredDayPlanView.swift */,
+				000000000000000000000097 /* Core/StudyCourse.swift */,
+				000000000000000000000098 /* Core/StudyContent.swift */,
+				000000000000000000000099 /* Core/StudyDiagrams.swift */,
+				00000000000000000000009A /* Core/StudyPractice.swift */,
+				00000000000000000000009B /* Views/StudyCourseView.swift */,
+				00000000000000000000009C /* Views/StudyPracticeView.swift */,
+				000000000000000000000064 /* GoKitApp.swift */,
+				000000000000000000000065 /* AppStore.swift */,
+				000000000000000000000066 /* Core/GoEngine.swift */,
+				000000000000000000000067 /* Core/Lesson.swift */,
+				000000000000000000000068 /* Core/Curriculum.swift */,
+				000000000000000000000069 /* Core/PracticeGame.swift */,
+				00000000000000000000006A /* Views/Components.swift */,
+				00000000000000000000006B /* Views/BoardView.swift */,
+				00000000000000000000006C /* Views/LearnView.swift */,
+				00000000000000000000006D /* Views/PracticeView.swift */,
+				00000000000000000000006E /* Views/ReviewView.swift */,
+				000000000000000000000082 /* Assets.xcassets */,
+				000000000000000000000083 /* PrivacyInfo.xcprivacy */,
+			);
+			path = GoKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000004 /* GoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000C /* Build configuration list for PBXNativeTarget "GoKit" */;
+			buildPhases = (
+				000000000000000000000005 /* Sources */,
+				000000000000000000000007 /* Frameworks */,
+				000000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoKit;
+			productName = GoKit;
+			productReference = 000000000000000000000008 /* GoKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000004 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000009 /* Build configuration list for PBXProject "GoKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000004 /* GoKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000E6 /* Assets.xcassets in Resources */,
+				0000000000000000000000E7 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000F0 /* Core/CoachTraining.swift in Sources */,
+				0000000000000000000000F1 /* Views/CoachView.swift in Sources */,
+				0000000000000000000000F2 /* Core/AdvancedCurriculum.swift in Sources */,
+				0000000000000000000000F3 /* Core/WuCurriculum.swift in Sources */,
+				0000000000000000000000F4 /* Views/WuCourseView.swift in Sources */,
+				0000000000000000000000F5 /* Core/HundredDayPlan.swift in Sources */,
+				0000000000000000000000F6 /* Views/HundredDayPlanView.swift in Sources */,
+				0000000000000000000000F7 /* Core/StudyCourse.swift in Sources */,
+				0000000000000000000000F8 /* Core/StudyContent.swift in Sources */,
+				0000000000000000000000F9 /* Core/StudyDiagrams.swift in Sources */,
+				0000000000000000000000FA /* Core/StudyPractice.swift in Sources */,
+				0000000000000000000000FB /* Views/StudyCourseView.swift in Sources */,
+				0000000000000000000000FC /* Views/StudyPracticeView.swift in Sources */,
+				0000000000000000000000C8 /* GoKitApp.swift in Sources */,
+				0000000000000000000000C9 /* AppStore.swift in Sources */,
+				0000000000000000000000CA /* Core/GoEngine.swift in Sources */,
+				0000000000000000000000CB /* Core/Lesson.swift in Sources */,
+				0000000000000000000000CC /* Core/Curriculum.swift in Sources */,
+				0000000000000000000000CD /* Core/PracticeGame.swift in Sources */,
+				0000000000000000000000CE /* Views/Components.swift in Sources */,
+				0000000000000000000000CF /* Views/BoardView.swift in Sources */,
+				0000000000000000000000D0 /* Views/LearnView.swift in Sources */,
+				0000000000000000000000D1 /* Views/PracticeView.swift in Sources */,
+				0000000000000000000000D2 /* Views/ReviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00000000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF2M9NDCBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "九三棋社";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.percival.gokit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF2M9NDCBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "九三棋社";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.percival.gokit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000009 /* Build configuration list for PBXProject "GoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000A /* Debug */,
+				00000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000C /* Build configuration list for PBXNativeTarget "GoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000D /* Debug */,
+				00000000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
