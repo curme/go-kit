@@ -1,5 +1,7 @@
 # 九三棋社（iOS）
 
+项目方向、当前实现与后续工作见 [项目上下文](docs/project-context.md)。
+
 面向零基础的原生 iOS 围棋学习工具。主要实现已转向 **SwiftUI iPhone / iPad App**，工程入口为 [`ios/GoKit.xcodeproj`](ios/GoKit.xcodeproj)，完整运行说明见 [`ios/README.md`](ios/README.md)。
 
 App 以系统100课基础教学版为唯一课程主线，学习页直接显示进度与十个单元，复习页使用同一套课程。另有9/13/19路同机教学棋盘与棋谱笔记、吴清源名局观察、教练带练、五路吃子挑战、九路离线陪练及本机存档。旧48课与百日日程已撤下用户入口，历史存档保留。最低系统版本为 iOS 17。真机安装需要完整 Xcode 和 Apple 账号签名。
