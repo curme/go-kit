@@ -14,7 +14,7 @@ struct ReviewView: View {
                 SectionHeading(eyebrow: "温故知新", title: "想明白一手，\n就进步一点。",
                     subtitle: "围绕100课查漏补缺。答错或用过提示的课，重新独立完成后移出待巩固。")
                 ForEach(mistakes) { lesson in
-                    NavigationLink { StudyLessonView(lesson: lesson) } label: {
+                    NavigationLink(value: lesson.id) {
                         VStack(alignment: .leading, spacing: 8) {
                             Label("第 \(lesson.id) 课 · 待巩固", systemImage: "arrow.counterclockwise").font(.caption)
                             Text(lesson.title).font(.headline)
@@ -44,7 +44,7 @@ struct ReviewView: View {
                 if !learned.isEmpty {
                     Text("回顾已学课程").font(.title3.weight(.semibold))
                     ForEach(learned) { lesson in
-                        NavigationLink { StudyLessonView(lesson: lesson) } label: {
+                        NavigationLink(value: lesson.id) {
                             VStack(alignment: .leading, spacing: 9) {
                                 Text("第 \(lesson.id) 课 · \(lesson.title)").font(.headline)
                                 Text(lesson.objective).font(.subheadline).foregroundStyle(Palette.muted).lineSpacing(4)
@@ -61,5 +61,10 @@ struct ReviewView: View {
                 NavigationLink { StudySourcesView() } label: { Text("课程依据与学习说明") }
             }.padding(20).frame(maxWidth: 650).frame(maxWidth: .infinity)
         }.pageStyle().navigationTitle("温故知新").inlineTitle()
+        .navigationDestination(for: Int.self) { id in
+            if (1...StudyCatalog.lessons.count).contains(id) {
+                StudyLessonView(lesson: StudyCatalog.lessons[id - 1]).id(id)
+            }
+        }
     }
 }

@@ -18,7 +18,7 @@ struct StudyHubView: View {
                         Text("学习 \(store.studyProgress.activeDates.count) 天").font(.caption)
                     }
                     ProgressView(value: Double(store.studyProgress.learned.count), total: 100)
-                    NavigationLink { StudyLessonView(lesson: next) } label: {
+                    NavigationLink(value: next.id) {
                         Label(store.studyProgress.results.isEmpty && store.studyProgress.learned.isEmpty ? "开始第 \(next.id) 课 · \(next.title)" : "继续第 \(next.id) 课 · \(next.title)", systemImage: "arrow.right")
                             .foregroundStyle(.white)
                             .frame(maxWidth: .infinity).padding(.vertical, 10)
@@ -60,6 +60,11 @@ struct StudyHubView: View {
                 NavigationLink { StudySourcesView() } label: { Text("课程依据与学习说明") }
             }.padding(20).frame(maxWidth: 650).frame(maxWidth: .infinity)
         }.pageStyle().navigationTitle("系统100课").inlineTitle()
+        .navigationDestination(for: Int.self) { id in
+            if (1...StudyCatalog.lessons.count).contains(id) {
+                StudyLessonView(lesson: StudyCatalog.lessons[id - 1]).id(id)
+            }
+        }
     }
 }
 
@@ -72,7 +77,7 @@ struct StudyChapterView: View {
                 SectionHeading(eyebrow: "第 \(chapter + 1) 单元", title: StudyCatalog.chapterTitles[chapter],
                                subtitle: "先看讲解，自己作答，再把本领用到棋盘上。")
                 ForEach(StudyCatalog.lessons.filter { $0.chapter == chapter }) { lesson in
-                    NavigationLink { StudyLessonView(lesson: lesson) } label: {
+                    NavigationLink { StudyLessonView(lesson: lesson).id(lesson.id) } label: {
                         VStack(alignment: .leading, spacing: 8) {
                             HStack {
                                 Text("\(lesson.id). \(lesson.title)").font(.headline)
@@ -151,15 +156,10 @@ struct StudyLessonView: View {
                     Text("实战记录单独保存，不计入独立答题正确率。")
                         .font(.caption).foregroundStyle(Palette.muted)
                 }.card()
-                if lesson.id < 100 {
-                    NavigationLink { StudyLessonView(lesson: StudyCatalog.lessons[lesson.id]) } label: {
-                        Label("第 \(lesson.id + 1) 课", systemImage: "arrow.right").frame(maxWidth: .infinity)
-                    }.buttonStyle(.bordered)
-                }
             }.padding(20).frame(maxWidth: 650).frame(maxWidth: .infinity)
         }.pageStyle().navigationTitle("第 \(lesson.id) 课").inlineTitle()
         .sheet(isPresented: $showExercises) {
-            NavigationStack { StudySessionView(lesson: lesson) }.environmentObject(store)
+            NavigationStack { StudySessionView(lesson: lesson).id(lesson.id) }.environmentObject(store)
         }
         .sheet(isPresented: $showDemo) {
             if let demo = lesson.demonstration { NavigationStack { StudyDemoView(exercise: demo) } }
@@ -186,10 +186,22 @@ struct StudySessionView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 if finished {
-                    SectionHeading(eyebrow: "本轮记录已保存", title: "这一课，练完了。",
+                    SectionHeading(eyebrow: "第 \(lesson.id) 课 · 本轮记录已保存", title: "本课答题结果",
                         subtitle: "独立完成 \(store.studyProgress.independentCount(lesson)) / \(lesson.exercises.count) 项。")
-                    CoachNote(text: store.studyProgress.passed(lesson) ? "本轮达到作答标准。把它用到实战里，过几天再检查是否仍然会做。" : "学过不等于已经熟练。答错或用过提示的内容已留在复习列表，下次再独立练一轮。")
-                    PrimaryButton(title: "回到课程") { dismiss() }
+                    CoachNote(text: store.studyProgress.passed(lesson) ? "本轮独立作答达标。把它用到实战里，过几天再检查是否仍然会做。" : "本轮尚未达到独立作答标准。答错或用过提示的内容已留在复习列表，可以再独立练一轮。")
+                    VStack(alignment: .leading, spacing: 12) {
+                        ForEach(lesson.exercises.indices, id: \.self) { number in
+                            let exercise = lesson.exercises[number]
+                            let result = store.studyProgress.results[exercise.id]
+                            HStack(alignment: .top, spacing: 12) {
+                                Text("\(number + 1).").monospacedDigit()
+                                Text(exercise.prompt).frame(maxWidth: .infinity, alignment: .leading)
+                                Text(result?.independent == true ? "独立答对" : result?.hinted == true ? "用过提示" : result?.mistake == true ? "改正后完成" : "未完成")
+                                    .foregroundStyle(result?.independent == true ? Palette.green : Palette.amber)
+                            }.font(.subheadline)
+                        }
+                    }.card()
+                    PrimaryButton(title: "返回第 \(lesson.id) 课内容", systemImage: "arrow.uturn.backward") { dismiss() }
                 } else {
                     Text("第 \(index + 1) / \(lesson.exercises.count) 项").font(.caption).foregroundStyle(Palette.muted)
                     ProgressView(value: Double(index), total: Double(lesson.exercises.count))
@@ -220,19 +232,32 @@ struct StudySessionView: View {
                     }
                     CoachNote(text: attempt.feedback, isError: attempt.mistake && !attempt.solved)
                     if attempt.solved {
-                        PrimaryButton(title: index == lesson.exercises.count - 1 ? "查看本轮记录" : "下一项") { advance() }
+                        PrimaryButton(title: nextUnsolvedIndex == nil ? "查看本课答题结果" : "继续下一题") { advance() }
                     } else {
                         Button("给我提示", systemImage: "lightbulb") { attempt.help(); record() }.buttonStyle(.bordered)
                     }
                 }
             }.padding(20).frame(maxWidth: 650).frame(maxWidth: .infinity)
-        }.pageStyle().navigationTitle(lesson.title).inlineTitle()
-        .toolbar { ToolbarItem(placement: .cancellationAction) { Button("返回课程") { dismiss() } } }
+        }.id(finished ? "study-results" : "study-exercise")
+        .pageStyle().navigationTitle(lesson.title).inlineTitle()
+        .toolbar { ToolbarItem(placement: .cancellationAction) { Button("返回第 \(lesson.id) 课") { dismiss() } } }
         .onAppear {
-            guard !initialized else { return }; initialized = true
-            if let i = lesson.exercises.firstIndex(where: { store.studyProgress.results[$0.id]?.solved != true }) {
-                load(i)
-            } else { finished = true }
+            startIfNeeded()
+        }
+        .onChange(of: lesson.id) { _, _ in
+            initialized = false
+            startIfNeeded()
+        }
+    }
+    private func startIfNeeded() {
+        guard !initialized, let first = lesson.exercises.first else { return }
+        initialized = true; finished = false
+        if let i = nextUnsolvedIndex { load(i) }
+        else {
+            index = 0
+            attempt = StudyAttempt(first)
+            candidate = nil
+            finished = true
         }
     }
     private func load(_ i: Int) {
@@ -240,8 +265,12 @@ struct StudySessionView: View {
         attempt = StudyAttempt(exercise, prior: store.studyProgress.results[exercise.id]); candidate = nil
     }
     private func record() { store.recordStudy(attempt, lesson: lesson); if attempt.solved { TouchFeedback.success() } }
+    private var nextUnsolvedIndex: Int? {
+        lesson.exercises.firstIndex { store.studyProgress.results[$0.id]?.solved != true }
+    }
     private func advance() {
-        if let i = lesson.exercises.indices.first(where: { store.studyProgress.results[lesson.exercises[$0].id]?.solved != true }) { load(i) }
+        guard attempt.solved else { return }
+        if let i = nextUnsolvedIndex { load(i) }
         else { finished = true }
     }
 }
